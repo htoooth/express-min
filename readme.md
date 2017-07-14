@@ -26,7 +26,7 @@ subApp.use('/passport/:id', function(ctx, req, res, next) {
 const router = express.Router();
 
 router.use('/cart', function(ctx, req, res) {
-  console.log('cart)
+  console.log('cart');
 })
 
 try {
