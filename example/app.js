@@ -24,7 +24,7 @@ function main(fn) {
   let ctx = {};
   let req = {};
   let res = {};
-  var cmdId = 4;
+  var cmdId = 1;
   fn(CMD_MAP[cmdId], ctx, req, res);
 }
 
